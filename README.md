@@ -49,8 +49,9 @@ Edit
 python gui.py
 ⚙️ Configure Transmission:
 On first launch, click Settings and enter your:
+Local Transmission server Settings:
 
-Host: //192.168.0.170/
+Host: //192.168.X.XXX/
 
 Port: 9091
 
@@ -58,9 +59,9 @@ Username: transmission
 
 Password: transmission
 
-Download Dir: //192.168.0.17/tv/feed/
+Local Download Dir: //192.168.X.XXX/*.*/
 
-Max Results: 1–50
+Current Max Results: 1–50
 
 ✅ Search & Download
 Enter a query (e.g., Star Trek)
@@ -108,7 +109,3 @@ Built with ❤️ by Adam Pluguez
 💡 Future Plans
  Add support for alternate torrent search engines
  Dark theme toggle & UI themes
-
-yaml
-Copy
-Edit
