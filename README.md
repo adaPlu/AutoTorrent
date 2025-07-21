@@ -107,11 +107,6 @@ Built with ❤️ by Adam Pluguez
 
 💡 Future Plans
  Add support for alternate torrent search engines
-
- Implement pause/resume/delete for torrents
-
- Add auto-refresh for download status
-
  Dark theme toggle & UI themes
 
 yaml
