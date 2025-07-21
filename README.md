@@ -1,23 +1,3 @@
-Here’s a complete GitHub-ready README.md for your AutoTorrent project. It includes:
-
-✍️ Project description
-
-🛠️ Installation & setup
-
-💡 Current features
-
-📦 PyInstaller packaging guide
-
-🧪 Unit testing
-
-📜 License
-
-🙋 Contact
-
-✅ README.md for AutoTorrent
-markdown
-Copy
-Edit
 # AutoTorrent
 
 _AutoTorrent_ is a lightweight, Python-based GUI application that allows you to search for torrents on The Pirate Bay and send magnet links directly to your local Transmission client with one click. Designed for ease of use, AutoTorrent supports customizable search limits, connection settings, and integrates seamlessly with PyQt6 and Transmission RPC.
