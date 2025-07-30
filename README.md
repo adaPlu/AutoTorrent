@@ -61,7 +61,7 @@ Password: transmission
 
 Local Download Dir: //192.168.X.XXX/*.*/
 
-Current Max Results: 1–50
+Current Max Results: 1–999
 
 ✅ Search & Download
 Enter a query (e.g., Star Trek)
