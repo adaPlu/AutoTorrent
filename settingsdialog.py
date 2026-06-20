@@ -13,7 +13,7 @@ class SettingsDialog(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setWindowTitle("Settings")
-        self.settings = QSettings("TorrentBot", "TorrentBotApp")
+        self.settings = QSettings("TorrentBot", "autoTorrent")
         layout = QFormLayout(self)
 
         self.ed_host = QLineEdit()
@@ -22,7 +22,7 @@ class SettingsDialog(QDialog):
         self.ed_pass = QLineEdit()
         self.ed_dir = QLineEdit()
         self.spin_limit = QSpinBox()
-        self.spin_limit.setRange(1, 50)
+        self.spin_limit.setRange(1, 999)
 
         layout.addRow("Host:", self.ed_host)
         layout.addRow("Port:", self.ed_port)
@@ -41,12 +41,12 @@ class SettingsDialog(QDialog):
     def load_settings(self):
         # Set defaults if first launch
         if not self.settings.contains("host"):
-            self.settings.setValue("host", "//192.168.0.170/")
+            self.settings.setValue("host", "192.168.0.17")
             self.settings.setValue("port", 9091)
             self.settings.setValue("user", "transmission")
             self.settings.setValue("password", "transmission")
-            self.settings.setValue("dir", "//192.168.0.17/tv/feed/")
-            self.settings.setValue("limit", 25)
+            self.settings.setValue("dir", "/media/pi/Tv/Tv/Feed/")
+            self.settings.setValue("limit", 999)
 
         self.ed_host.setText(self.settings.value("host"))
         self.ed_port.setText(str(self.settings.value("port")))
